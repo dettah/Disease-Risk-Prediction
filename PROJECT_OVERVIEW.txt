@@ -1,0 +1,17 @@
+DISEASE RISK PREDICTION AI
+
+Purpose:
+Estimate type 2 diabetes risk from patient measurements using supervised machine learning.
+
+Input:
+Pregnancies, glucose, blood pressure, skin thickness, insulin, BMI,
+diabetes pedigree function, and age.
+
+Output:
+Model probability, risk category, priority, and a non-diagnostic recommendation.
+
+Model:
+Logistic Regression with StandardScaler and class balancing.
+
+Important:
+The output is a machine-learning risk estimate, not a medical diagnosis.
